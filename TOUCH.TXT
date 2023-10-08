@@ -1,0 +1,17 @@
+This version of touch was written for masm 5.1 using macros supplied.
+The dynamic link library is written likewise. The argc and argv functions
+are derived from examples given in "Advanced OS/2 Programming", by Ray
+Duncan.
+
+It is interesting that when using codeview, DosFindFirst fails, returning
+12H (no matches). This happens under OS/2 V1.1 and V1.2.
+
+I have not a copy of Microsoft's OS/2 Reference set, but the documentation
+on DosOpen is sparse in Duncan's book. Overall though, it is a good book.
+
+I now have the Lattice C Compiler 6.0, so I will be leaving an impression
+of it on this board, soon. So far some sample code from Charles Petzold's
+"Programming The OS/2 Presentation Manager" has worked perfectly. The
+libraries included with the compiler package are impressive, indeed.
+
+David J Olson
